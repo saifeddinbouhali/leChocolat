@@ -61,3 +61,152 @@
                 bottom: 0px;
                 z-index: +1;
             }
+            /* cards for menu */
+     
+.our-team-main
+{
+	width:100%;
+	height:auto;
+	border-bottom:5px #323233 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:10px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+}
+
+
+.our-team-main img
+{
+	border-radius:50%;
+	margin-bottom:20px;
+	width: 90px;
+}
+
+.our-team-main h3
+{
+	font-size:20px;
+	font-weight:700;
+}
+
+.our-team-main p
+{
+	margin-bottom:0;
+}
+
+.team-back
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;
+	text-align:left;
+	background:#fff;
+	
+}
+
+.team-front
+{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:#fff;
+	padding:15px;
+	bottom:0px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+}
+.team-front img
+{
+    height: 110px;
+    width: 110px;
+
+}
+
+              /*counter of shop  */
+              .qty .count {
+                color: #000;
+                display: inline-block;
+                vertical-align: top;
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 30px;
+                padding: 0 2px
+                ;min-width: 35px;
+                text-align: center;
+            }
+            .qty .plus {
+                cursor: pointer;
+                display: inline-block;
+                vertical-align: top;
+                color: white;
+                width: 30px;
+                height: 30px;
+                font: 30px/1 Arial,sans-serif;
+                text-align: center;
+                border-radius: 50%;
+                }
+            .qty .minus {
+                cursor: pointer;
+                display: inline-block;
+                vertical-align: top;
+                color: white;
+                width: 30px;
+                height: 30px;
+                font: 30px/1 Arial,sans-serif;
+                text-align: center;
+                border-radius: 50%;
+                background-clip: padding-box;
+            }
+            div {
+                text-align: center;
+            }
+            .minus:hover{
+                background-color: #717fe0 !important;
+            }
+            .plus:hover{
+                background-color: #717fe0 !important;
+            }
+            /* shopping position */
+            .shopselec{
+                position: absolute;
+                align-items: center;
+                height:  2rem;
+
+            }
+
+            /*Prevent text selection*/
+            span{
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+            }
+            input{  
+                border: 0;
+                width: 2%;
+            }
+            nput::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+            input:disabled{
+                background-color:white;
+            }
+           
